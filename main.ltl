@@ -1,0 +1,15 @@
+// ltl-scheduler-demo/main.ltl
+//
+// Round-robin + MLFQ toy scheduler with gantt output.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-scheduler-demo v0.1.0")
+    io::println("Round-robin + MLFQ toy scheduler with gantt output.")
+    0
+}
